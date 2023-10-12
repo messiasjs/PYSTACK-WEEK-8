@@ -1,0 +1,37 @@
+{% extends "bases/base.html" %}
+{% load static %}
+{% block 'head' %}
+<link href="{% static 'usuarios/css/css.css' %}" rel="stylesheet">
+{% endblock 'head' %}
+{% block 'conteudo' %}
+<br>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3" style="text-align: center">
+        <h3 class="font-destaque">VitaLab</h3>
+        <img src="{% static 'geral/img/logo.png' %}" alt="">
+        <h3> Cuidando da Sua Saúde com Precisão e Carinho.</h3>
+        </div>
+
+        <div class="col-md-9" align="center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            A VitaLab é uma clínica dedicada a proporcionar serviços de diagnóstico e exames de saúde com excelência e cuidado. Nossa missão é oferecer precisão e confiabilidade em cada exame, visando o bem-estar e a tranquilidade dos nossos pacientes. Com uma equipe de profissionais altamente qualificados e equipamentos de última geração, estamos comprometidos em fornecer resultados de qualidade para auxiliar no monitoramento e no cuidado da sua saúde. Na VitaLab, seu bem-estar está em boas mãos.
+            <div>
+                <br>
+                <br>
+                <br>
+                <a href="{% url "cadastro"%}" class="btn btn-default">Cadastrar</a>
+                <a href="{% url "logar"%}" class="btn btn-default">Logar</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
