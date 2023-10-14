@@ -48,7 +48,7 @@ Para clientes empresariais, as funcionalidades incluem:
 ## Instalação
 - Clone o repositório.
 
-- Instale as dependências usando pip install -r requirements.txt.
+- Instale as dependências.
 
 - Configure as variáveis de ambiente necessárias, como configurações de banco de dados e segurança.
 
